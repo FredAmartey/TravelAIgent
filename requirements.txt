@@ -1,0 +1,13 @@
+langchain
+langchain-core
+langchain-groq
+langchain-huggingface
+bitsandbytes
+transformers
+sentence-transformers
+langchain-community
+langchain-pinecone
+pinecone
+accelerate
+peft
+trl
