@@ -1,8 +1,6 @@
 # TravelAIgent - AI Powered Travel Guide (RAG Pipeline with Fine-Tuned LLaMa 2)
 Travel planning can be overwhelming, with users spending hours researching destinations, activities, and accommodations across multiple platforms. The AI-Powered Travel Guide aims to streamline this process by combining Retrieval-Augmented Generation (RAG), Fine-tuning, and Prompt Engineering to deliver highly personalized travel recommendations and itineraries. The system will cater to user preferences such as budget, travel style, and specific interests (e.g., food, adventure, culture).
 
-Video demo: https://theamarteyboy2.wistia.com/medias/00r620t58t
-
 
 ## **Project Overview**
 This project implements a **Retrieval-Augmented Generation (RAG) pipeline** using **LangChain** and a **fine-tuned LLaMa 2 model** to answer user queries related to USA or Canadian travel policies and guidelines.  
