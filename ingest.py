@@ -9,10 +9,14 @@ from pinecone import Pinecone, ServerlessSpec
 # --------------------------------------------
 # Set Environment Variables
 # --------------------------------------------
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "HF_TOKEN_REMOVED"
-HF_TOKEN = "HF_TOKEN_REMOVED"
-pinecone_api_key = "PINECONE_KEY_REMOVED"
-os.environ["PINECONE_API_KEY"] = pinecone_api_key
+HF_TOKEN = os.environ.get("HUGGINGFACEHUB_API_TOKEN")
+pinecone_api_key = os.environ.get("PINECONE_API_KEY")
+
+if not HF_TOKEN:
+    raise ValueError("Missing HUGGINGFACEHUB_API_TOKEN environment variable.")
+
+if not pinecone_api_key:
+    raise ValueError("Missing PINECONE_API_KEY environment variable.")
 
 
 
